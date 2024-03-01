@@ -2,6 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
  const app =express()
 import userRoutes from './routes/userRoutes.js'
+import cors from 'cors'
 const PORT = 8000
 
 
@@ -10,6 +11,10 @@ const connection =()=>{
     console.log("mogodb connected");
 }
 
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+
+app.use(cors({ origin: 'http://localhost:5371', credentials: true }))
 
 app.use('/user',userRoutes)
 
