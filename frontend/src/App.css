@@ -40,3 +40,25 @@
   width: 50%;
   justify-content: center;
 }
+.btnWrapper button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: rgb(32, 130, 19);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tablewrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tablewrapper table tr {
+  padding: 30px;
+}
