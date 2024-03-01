@@ -1,0 +1,42 @@
+.wrapper{
+ width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 30px;
+}
+.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.inputs label{
+  font-size: 18px;
+}
+.inputs input{
+  font-size: 18px;
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.inputs select{
+  font-size: 18px;
+  width: 30%;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.btnwrapper{
+
+  width: 50%;
+  justify-content: center;
+}
